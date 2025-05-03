@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="zh">
   <head>
-    <link rel="stylesheet" href="/myvue/assets/uni.6609cd3c.css">
-
     <meta charset="UTF-8" />
-    <link rel="icon" href="./favicon.ico" />
+    <script>
+      // 如果当前路径不在/myvue/下，则重定向
+      if (!window.location.pathname.includes('/myvue/')) {
+        window.location.href = '/myvue/';
+      }
+    </script>
+    <link rel="icon" href="./static/144icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>课堂小组抽取工具</title>
-    <!--preload-links-->
-    <!--app-context-->
-    <script type="module" crossorigin src="/myvue/assets/index-DM9YATVT.js"></script>
-    <link rel="stylesheet" crossorigin href="/myvue/assets/index-BrYqiYao.css">
+    <script type="module" crossorigin src="./assets/index-DM9YATVT.js"></script>
+    <link rel="stylesheet" href="./assets/index-7NYAOZ-M.css">
+    <link rel="stylesheet" href="./assets/uni.6609cd3c.css">
+    <link rel="stylesheet" href="./assets/index-BrYqiYao.css">
   </head>
   <body>
-    <div id="app"><!--app-html--></div>
+    <div id="app"></div>
+    
   </body>
 </html>
